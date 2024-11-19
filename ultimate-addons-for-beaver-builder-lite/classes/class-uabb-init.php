@@ -53,6 +53,7 @@ class UABB_Init {
 			add_action( 'admin_notices', array( $this, 'admin_notices' ) );
 			add_action( 'network_admin_notices', array( $this, 'admin_notices' ) );
 		}
+
 	}
 	/**
 	 * Function that renders links
